@@ -49,15 +49,4 @@ CampusCore aims to replace fragmented, outdated college administration tools wit
 
 ## 🚦 Getting Started
 
-Follow these steps to set up the project locally on your machine.
-
-### Prerequisites
-* Node.js (v18.17 or newer recommended)
-* npm, yarn, or pnpm
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/Aadi7171/CampusCore.git](https://github.com/Aadi7171/CampusCore.git)
-   cd CampusCore
+http://localhost:3000/
