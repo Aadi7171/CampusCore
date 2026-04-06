@@ -1,80 +1,63 @@
-# CampusCore
+# 🎓 CampusCore
 
-> A full-stack campus management platform built with Next.js — centralising student records, timetables, announcements, and faculty workflows into a single, fast web app.
+<div align="center">
+  <p><strong>A modern, full-stack campus management platform</strong></p>
+  <p>Centralising student records, timetables, announcements, and faculty workflows into a single, lightning-fast web app.</p>
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" /></a>
+</div>
+
+<br />
+
+## 🚀 Overview
+
+CampusCore aims to replace fragmented, outdated college administration tools with a unified, intuitive dashboard. Whether you're a student checking your timetable, a faculty member updating grades, or an administrator managing semester data, CampusCore provides a seamless, real-time experience tailored to your specific role.
 
 ---
 
-## What it does
+## ✨ Features by Role
 
-CampusCore replaces fragmented college admin tools with a unified dashboard. Key modules:
+### 👨‍🎓 Student Portal
+* **Dashboard:** At-a-glance view of daily schedules and pending tasks.
+* **Academics:** Real-time access to timetables, attendance tracking, and exam results.
+* **Updates:** Stay informed with campus-wide and class-specific announcements.
 
-- **Student portal** — view timetable, attendance, results, and announcements
-- **Faculty panel** — mark attendance, upload grades, post notices
-- **Admin dashboard** — manage users, departments, and semester data
-- **Real-time notices** — push announcements to specific classes or the entire campus
+### 👨‍🏫 Faculty Panel
+* **Course Management:** Easily mark daily attendance and upload semester grades.
+* **Communication:** Post notices, assignments, and updates directly to specific cohorts.
+
+### 🛡️ Admin Dashboard
+* **User Management:** Onboard and manage student, faculty, and staff accounts.
+* **Campus Operations:** Oversee department structures, semester transitions, and global data.
+* **Broadcasts:** Push urgent, real-time notices across the entire campus.
 
 ---
 
-## Tech stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
-|---|---|
-| Frontend | Next.js 15, React, Tailwind CSS |
-| Backend | Next.js API Routes |
-| Styling | CSS Modules + Tailwind |
-| Tooling | ESLint, Prettier |
+| :--- | :--- |
+| **Frontend** | [Next.js 15](https://nextjs.org/) (App Router), React, [Tailwind CSS](https://tailwindcss.com/) |
+| **Backend** | Next.js API Routes (Serverless) |
+| **Styling** | CSS Modules + Tailwind Utility Classes |
+| **Tooling** | ESLint, Prettier, Node.js |
 
 ---
 
-## Getting started
+## 🚦 Getting Started
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/Aadi7171/CampusCore.git
-cd CampusCore
+Follow these steps to set up the project locally on your machine.
 
-# 2. Install dependencies
-npm install
+### Prerequisites
+* Node.js (v18.17 or newer recommended)
+* npm, yarn, or pnpm
 
-# 3. Run the dev server
-npm run dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## Project structure
-
-```
-CampusCore/
-├── app/               # Next.js App Router pages
-├── src/app/           # Shared app logic
-├── lib/               # Utility functions & helpers
-├── public/            # Static assets
-└── README.md
-```
-
----
-
-## Roadmap
-
-- [ ] Authentication (NextAuth.js)
-- [ ] Database integration (PostgreSQL / Supabase)
-- [ ] Mobile-responsive redesign
-- [ ] Push notifications for announcements
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE)
-
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Aadi7171/CampusCore.git](https://github.com/Aadi7171/CampusCore.git)
+   cd CampusCore
