@@ -1,35 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CampusCore
 
-## Getting Started
+> A full-stack campus management platform built with Next.js — centralising student records, timetables, announcements, and faculty workflows into a single, fast web app.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
+---
+
+## What it does
+
+CampusCore replaces fragmented college admin tools with a unified dashboard. Key modules:
+
+- **Student portal** — view timetable, attendance, results, and announcements
+- **Faculty panel** — mark attendance, upload grades, post notices
+- **Admin dashboard** — manage users, departments, and semester data
+- **Real-time notices** — push announcements to specific classes or the entire campus
+
+---
+
+## Tech stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js 15, React, Tailwind CSS |
+| Backend | Next.js API Routes |
+| Styling | CSS Modules + Tailwind |
+| Tooling | ESLint, Prettier |
+
+---
+
+## Getting started
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/Aadi7171/CampusCore.git
+cd CampusCore
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project structure
 
-## Learn More
+```
+CampusCore/
+├── app/               # Next.js App Router pages
+├── src/app/           # Shared app logic
+├── lib/               # Utility functions & helpers
+├── public/            # Static assets
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] Authentication (NextAuth.js)
+- [ ] Database integration (PostgreSQL / Supabase)
+- [ ] Mobile-responsive redesign
+- [ ] Push notifications for announcements
 
-## Deploy on Vercel
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE)
+
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
