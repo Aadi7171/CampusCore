@@ -1,77 +1,53 @@
 # 🎓 CampusCore
 
-<div align="center">
-  <p><strong>A modern, full-stack campus management platform</strong></p>
-  <p>Centralising student records, timetables, announcements, and faculty workflows into a single, lightning-fast web app.</p>
+🔴 Live Demo: [https://campus-core-mu.vercel.app](https://campus-core-mu.vercel.app/)
 
-  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
-  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" /></a>
-</div>
+**CampusCore** is a modern, AI-assisted campus navigation and management platform. Designed explicitly for students and faculty at MMMUT, it acts as a unified hub for locating departments, finding resources, and accessing institutional intelligence through an interactive, glassmorphism-themed UI.
 
-<br />
+![UI](https://img.shields.io/badge/UI-Glassmorphism-blueviolet)
+![Frontend](https://img.shields.io/badge/Frontend-Next.js%2015-black)
+![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS-009688)
 
-## 🚀 Overview
+## ✨ Key Features
 
-CampusCore aims to replace fragmented, outdated college administration tools with a unified, intuitive dashboard. Whether you're a student checking your timetable, a faculty member updating grades, or an administrator managing semester data, CampusCore provides a seamless, real-time experience tailored to your specific role.
-
----
-
-## ✨ Features by Role
-
-### 👨‍🎓 Student Portal
-* **Dashboard:** At-a-glance view of daily schedules and pending tasks.
-* **Academics:** Real-time access to timetables, attendance tracking, and exam results.
-* **Updates:** Stay informed with campus-wide and class-specific announcements.
-
-### 👨‍🏫 Faculty Panel
-* **Course Management:** Easily mark daily attendance and upload semester grades.
-* **Communication:** Post notices, assignments, and updates directly to specific cohorts.
-
-### 🛡️ Admin Dashboard
-* **User Management:** Onboard and manage student, faculty, and staff accounts.
-* **Campus Operations:** Oversee department structures, semester transitions, and global data.
-* **Broadcasts:** Push urgent, real-time notices across the entire campus.
-
----
+- **Interactive Campus Map**: Navigate the vast MMMUT campus without ever feeling lost. A visually stunning 2D mapped UI helps you physically locate departments and facilities.
+- **AI-Assisted Navigator**: An intelligent virtual assistant that answers complex campus queries, helping you find professors and facilities instantly.
+- **Academic Resource Dump**: Skip the endless WhatsApp forwards. Built-in hubs to easily find PYQs, syllabi, and curated notes.
+- **Premium UI**: Immersive dark-mode aesthetics built with Next.js, featuring smooth gradients and glassmorphic design principles.
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend** | [Next.js 15](https://nextjs.org/) (App Router), React, [Tailwind CSS](https://tailwindcss.com/) |
-| **Backend** | Next.js API Routes (Serverless) |
-| **Styling** | CSS Modules + Tailwind Utility Classes |
-| **Tooling** | ESLint, Prettier, Node.js |
+- **Frontend**: Next.js 15 (App Router), React 19
+- **Styling**: Tailwind CSS, CSS Modules
+- **Icons Elements**: Lucide React
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+- Node.js (v18.17 or newer)
+- npm, yarn, or pnpm
+
+### 2. Installation
+```bash
+# Clone the repository
+git clone https://github.com/Aadi7171/CampusCore.git
+cd CampusCore
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+### 3. Launch App
+Open [http://localhost:3000/](http://localhost:3000/) in your browser to view the application locally.
+
+## 📸 Screenshots
+
+> *(Add your project screenshot here by replacing this quote block with your image link!)*
 
 ---
 
-## 🚦 Getting Started
-
-Follow these steps to set up the project locally on your machine.
-
-### Prerequisites
-* Node.js (v18.17 or newer recommended)
-* npm, yarn, or pnpm
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Aadi7171/CampusCore.git
-   cd CampusCore
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Launch the app**
-   Open [http://localhost:3000/](http://localhost:3000/) in your browser to see the result.
+**Developed for Portfolio Showcase** — Bridging the gap between outdated college administration tools and seamless, real-time student experiences.
