@@ -46,7 +46,7 @@ Open [http://localhost:3000/](http://localhost:3000/) in your browser to view th
 
 ## 📸 Screenshots
 
-> *(Add your project screenshot here by replacing this quote block with your image link!)*
+> C:\Users\Asus\.gemini\antigravity\brain\c18df69b-ba2f-4f05-a4a1-a26532fc9285\campuscore_demo_1775552750503.webp
 
 ---
 
