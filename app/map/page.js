@@ -6,6 +6,12 @@ import { Search, MapPin } from 'lucide-react';
 
 export default function MapPage() {
   const [selectedDept, setSelectedDept] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredDepts = universityData.departments.filter(dept => 
+    dept.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    dept.building.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
     <div className="container animate-fade-in" style={{ display: 'flex', gap: '2rem', height: 'calc(100vh - 150px)' }}>
@@ -17,12 +23,14 @@ export default function MapPage() {
           <input 
             type="text" 
             placeholder="Search departments..." 
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
             style={{ width: '100%', padding: '10px 10px 10px 40px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--surface-border)', borderRadius: '8px', color: 'white' }}
           />
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          {universityData.departments.map(dept => (
+          {filteredDepts.map(dept => (
             <div 
               key={dept.id}
               onClick={() => setSelectedDept(dept)}
