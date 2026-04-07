@@ -61,3 +61,17 @@ Follow these steps to set up the project locally on your machine.
    ```bash
    git clone https://github.com/Aadi7171/CampusCore.git
    cd CampusCore
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Launch the app**
+   Open [http://localhost:3000/](http://localhost:3000/) in your browser to see the result.
