@@ -50,3 +50,16 @@ Open [http://localhost:3000/](http://localhost:3000/) in your browser to view th
 ---
 
 **Developed for Portfolio Showcase** — Bridging the gap between outdated college administration tools and seamless, real-time student experiences.
+
+## 👨‍💻 Author
+
+**Aditya** — [@Aadi7171](https://github.com/Aadi7171)
+
+*Built as a proof-of-concept for embedded personal safety systems.*
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
